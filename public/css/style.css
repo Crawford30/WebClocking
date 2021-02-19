@@ -2,3 +2,43 @@
     background:#056608;
 }
 
+
+.middle-container{
+	display: relative;
+	text-align:  center;
+	
+
+}
+
+
+.current-time h2{
+
+	padding-top: 100px;
+
+	/*display: absolute;
+	top: 600px;
+	color: red;*/
+	font-size: 100px;
+
+}
+
+.middle-container .date-div{
+
+	font-size: 50px;
+
+
+}
+
+.btn-in-out{
+	background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 4px;
+
+}
