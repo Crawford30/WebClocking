@@ -31,8 +31,6 @@
               </div>
             </nav>
 
-            <!-- <div style="display: flex; direction: column;"> -->
-             <!--  <h6>joel@gmail.com(Admin)</h6> -->
-             <!--  </div> -->
-           </div>
+            
+          </div>
 
