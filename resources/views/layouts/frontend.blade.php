@@ -50,7 +50,7 @@
     <div class="current-time"> <h2 id="digital-clock"></h2></div>
 
 
-    <h6 class="date-div">{{date('D,d/M/y')}}</h6>
+    <h6 class="date-div">{{date('D, d/M/y')}}</h6>
 
 
     <form method="post">

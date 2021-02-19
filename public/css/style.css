@@ -1,5 +1,5 @@
 .custom-navbar {
-    background:#056608;
+	background:#056608;
 }
 
 
@@ -23,22 +23,31 @@
 }
 
 .middle-container .date-div{
-
 	font-size: 50px;
-
 
 }
 
 .btn-in-out{
+
+	transition: 1s all;
 	background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 4px;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 8px;
+	cursor: pointer;
 
 }
+
+.btn-in-out:hover{
+	transition: 1s all;
+	background-color: #056608;
+
+}
+
+
