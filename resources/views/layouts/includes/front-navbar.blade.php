@@ -1,7 +1,7 @@
 <div id="app" class="container-fliud">
   <nav class="navbar navbar-expand-md navbar-light">
     <a class="navbar-brand" href="#" style="color: #fff;">Clocking <small style="display:block;
-    font-size:12px; color: #fff;">joel@gmail.com(Admin)</small></a>
+    font-size:12px; color: #fff;">joelcrawford30@gmail.com (Admin)</small></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,6 +31,6 @@
               </div>
             </nav>
 
-            
+
           </div>
 
