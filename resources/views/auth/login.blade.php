@@ -12,6 +12,11 @@
 
 
 
+                        <p >Monday - Friday  :    9am  to  5:30pm <br>
+                            Saturday - Sunday :  Closed </p><br><br>
+
+
+
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                             <label for="email" class="col-md-4 control-label">E-Mail Address</label>

@@ -39,7 +39,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-default navbar-static-top" style="background: #056608;">
             <div class="container">
                 <div class="navbar-header">
 
@@ -76,7 +76,8 @@
                         @else
 
                             <li><a href="{{ route("login") }}">Home</a></li>
-                            <li><a href="{{ route('pages.index') }}">Attendence</a></li>
+                            {{-- <li><a href="{{ route('pages.index') }}">Attendence</a></li> --}}
+                            <li><a href="{{ route('login') }}">Attendence</a></li>
 
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
