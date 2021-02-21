@@ -13,11 +13,27 @@
 
 
 
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    {{-- <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/> --}}
+    <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,700&display=swap"
+    rel="stylesheet"
+    />
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" >
+
+
+
     {{--Fusion Chart Libraries--}}
     {{--<script type="text/javascript" src="{{asset('Fusion Chart Libraries/js/fusioncharts.js')}}"></script>
     <script type="text/javascript" src="{{asset('Fusion Chart Libraries/js/themes/fusioncharts.theme.ocean.js')}}"></script>--}}
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> --}}
 
     {{--Chart--}}
     {!! Charts::assets() !!}
@@ -25,7 +41,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'WebClocking') }}</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -79,6 +95,8 @@
                             {{-- <li><a href="{{ route('pages.index') }}">Attendence</a></li> --}}
                             <li><a href="{{ route('login') }}">Attendence</a></li>
 
+                            <li><a href="{{ route('login') }}">User</a></li>
+
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                     {{ Auth::user()->name }} <span class="caret"></span>
@@ -112,6 +130,14 @@
 
         @yield('content')
     </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>

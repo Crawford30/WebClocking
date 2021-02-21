@@ -1,53 +1,60 @@
 .custom-navbar {
-	background:#056608;
+    background: #056608;
 }
 
-
-.middle-container{
-	display: relative;
-	text-align:  center;
-	
-
+.middle-container {
+    display: relative;
+    text-align: center;
 }
 
+.current-time h2 {
+    padding-top: 100px;
 
-.current-time h2{
-
-	padding-top: 100px;
-
-	/*display: absolute;
+    /*display: absolute;
 	top: 600px;
 	color: red;*/
-	font-size: 100px;
-
+    font-size: 100px;
 }
 
-.middle-container .date-div{
-	font-size: 50px;
-
+.middle-container .date-div {
+    font-size: 50px;
 }
 
-.btn-in-out{
-
-	transition: 1s all;
-	background-color: #4CAF50;
-	border: none;
-	color: white;
-	padding: 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	border-radius: 8px;
-	cursor: pointer;
-
+.button-container {
+    text-align: center;
 }
 
-.btn-in-out:hover{
-	transition: 1s all;
-	background-color: #056608;
-
+.btn-in {
+    transition: 1s all;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
+.btn-in:hover {
+    transition: 1s all;
+    background-color: #056608;
+}
 
+.btn-out {
+    transition: 1s all;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
