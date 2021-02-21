@@ -70,7 +70,7 @@ $button2 = 0;
 
                             ?> "
                                     onclick="myFunction()"   >
-                                    &ensp;&ensp;&ensp;TIME IN&ensp;&ensp;&ensp;</button>
+                                    &ensp;&ensp;&ensp;TIME IN&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</button>
 
 
 
